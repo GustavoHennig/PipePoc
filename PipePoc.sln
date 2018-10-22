@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipePocMsExample", "PipePocMsExample.csproj", "{987C5003-E91A-4AB5-AB1C-48591CD99E08}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipePocStreamReaderClient", "PipePocClient\PipePocStreamReaderClient.csproj", "{B076022C-3BD5-4C20-895F-C96FC4DB8031}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipePocStreamReaderServer", "PipePocServer\PipePocStreamReaderServer.csproj", "{8608AA4B-B512-4500-9A3C-8AA26DADF7C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipePocBinClient", "PipePocBinClient\PipePocBinClient.csproj", "{02A37D9D-D483-4351-9B96-88A872A46360}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipePocBinServer", "PipePocBinServer\PipePocBinServer.csproj", "{9E4B99C5-1006-4F72-9C93-1723E78E37E7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EF56CC21-C3A0-4282-90E5-87E2F417CF14}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{987C5003-E91A-4AB5-AB1C-48591CD99E08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{987C5003-E91A-4AB5-AB1C-48591CD99E08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{987C5003-E91A-4AB5-AB1C-48591CD99E08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{987C5003-E91A-4AB5-AB1C-48591CD99E08}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B076022C-3BD5-4C20-895F-C96FC4DB8031}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B076022C-3BD5-4C20-895F-C96FC4DB8031}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B076022C-3BD5-4C20-895F-C96FC4DB8031}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B076022C-3BD5-4C20-895F-C96FC4DB8031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8608AA4B-B512-4500-9A3C-8AA26DADF7C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8608AA4B-B512-4500-9A3C-8AA26DADF7C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8608AA4B-B512-4500-9A3C-8AA26DADF7C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8608AA4B-B512-4500-9A3C-8AA26DADF7C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02A37D9D-D483-4351-9B96-88A872A46360}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02A37D9D-D483-4351-9B96-88A872A46360}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02A37D9D-D483-4351-9B96-88A872A46360}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02A37D9D-D483-4351-9B96-88A872A46360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E4B99C5-1006-4F72-9C93-1723E78E37E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E4B99C5-1006-4F72-9C93-1723E78E37E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E4B99C5-1006-4F72-9C93-1723E78E37E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E4B99C5-1006-4F72-9C93-1723E78E37E7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {233D44A7-6A64-4EF4-A7AA-36B47B104530}
+	EndGlobalSection
+EndGlobal
